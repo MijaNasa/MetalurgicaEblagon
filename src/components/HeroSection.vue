@@ -71,16 +71,12 @@
       <div class="hidden lg:flex justify-center items-center animate-fade-in-right">
         <div class="relative bg-brand-green/10 border border-brand-green/30 rounded-2xl p-10 backdrop-blur-sm shadow-[0_0_60px_rgba(29,94,65,0.3)]">
           <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-brand-green/20 to-transparent"></div>
-          <div class="relative flex flex-col items-center gap-6">
-            <!-- Circle logo -->
-            <div class="w-32 h-32 rounded-full border-2 border-brand-green/60 flex items-center justify-center relative">
-              <div class="absolute inset-2 rounded-full border border-brand-green/30"></div>
-              <span class="font-heading text-brand-green text-6xl">ME</span>
-            </div>
-            <div class="text-center">
-              <div class="font-heading text-white text-2xl tracking-widest">METALÚRGICA</div>
-              <div class="font-body text-brand-green text-sm tracking-[0.2em] mt-1">EBLAGON</div>
-            </div>
+          <div class="relative flex flex-col items-center gap-4 p-4">
+            <img
+              src="/logo.png"
+              alt="Metalúrgica Eblagon"
+              class="w-80 h-auto object-contain rounded-xl"
+            />
           </div>
         </div>
       </div>

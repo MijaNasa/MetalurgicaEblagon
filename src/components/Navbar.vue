@@ -31,14 +31,12 @@ const navLinks = [
   >
     <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
       <!-- Logo -->
-      <a href="#home" class="flex items-center gap-3 group">
-        <div class="w-10 h-10 flex items-center justify-center border-2 border-brand-green rounded-full group-hover:bg-brand-green/20 transition-all duration-300">
-          <span class="font-heading text-brand-green text-sm font-bold leading-none">ME</span>
-        </div>
-        <div class="flex flex-col leading-tight">
-          <span class="font-heading text-white text-sm tracking-widest uppercase">Metalúrgica</span>
-          <span class="font-body text-brand-green text-xs tracking-wider">Eblagon</span>
-        </div>
+      <a href="#home" class="flex items-center group">
+        <img
+          src="/logo.png"
+          alt="Metalúrgica Eblagon"
+          class="h-16 w-auto rounded-xl object-contain transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(29,94,65,0.7)] group-hover:scale-105"
+        />
       </a>
 
       <!-- Desktop Links -->

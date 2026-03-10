@@ -5,14 +5,12 @@
       <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
         <!-- Brand -->
         <div class="md:col-span-1">
-          <a href="#home" class="flex items-center gap-3 group mb-6">
-            <div class="w-10 h-10 flex items-center justify-center border-2 border-white/40 rounded-full group-hover:border-white transition-all">
-              <span class="font-heading text-white text-sm font-bold">ME</span>
-            </div>
-            <div class="flex flex-col leading-tight">
-              <span class="font-heading text-white text-sm tracking-widest uppercase">Metalúrgica</span>
-              <span class="font-body text-white/70 text-xs tracking-wider">Eblagon</span>
-            </div>
+          <a href="#home" class="flex items-center group mb-6">
+            <img
+              src="/logo.png"
+              alt="Metalúrgica Eblagon"
+              class="h-14 w-auto rounded-xl object-contain opacity-90 group-hover:opacity-100 transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,0,0,0.3)]"
+            />
           </a>
           <p class="font-body text-white/60 text-xs leading-relaxed max-w-xs">
             Fabricación metálica industrial y soluciones de ingeniería estructural para quienes exigen excelencia.
@@ -61,9 +59,9 @@
           <h4 class="font-heading text-white text-sm uppercase tracking-widest mb-5">Mantenete Informado</h4>
           <p class="font-body text-white/60 text-xs leading-relaxed mb-4">Suscribite para recibir novedades sobre nuestros servicios y proyectos.</p>
           <div class="flex gap-2">
-            <input 
-              type="email" 
-              placeholder="tu@email.com" 
+            <input
+              type="email"
+              placeholder="tu@email.com"
               class="flex-1 bg-white/10 border border-white/20 text-white placeholder-white/40 font-body text-xs px-4 py-3 rounded-full focus:outline-none focus:border-white/50 transition-all"
             />
             <button class="bg-white text-brand-green font-heading text-xs uppercase px-4 py-3 rounded-full hover:bg-white/90 transition-all">
