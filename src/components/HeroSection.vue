@@ -31,7 +31,7 @@
         </h1>
 
         <p class="font-body text-white/60 max-w-md text-base leading-relaxed mb-10">
-          Soluciones en metalurgia para proyectos industriales y de construcción. Corte láser avanzado, plegado y fabricación a medida.
+          Mecanizado de piezas y fabricación de cuchillas para cortadoras de fiambre.
         </p>
 
         <div class="flex flex-wrap gap-4">
@@ -53,8 +53,8 @@
         <!-- Stats bar -->
         <div class="mt-14 flex gap-10 border-t border-white/10 pt-8">
           <div>
-            <div class="font-heading text-brand-green text-3xl">20+</div>
-            <div class="font-body text-white/40 text-xs uppercase tracking-wider mt-1">Años de Experiencia</div>
+            <div class="font-heading text-brand-green text-3xl">30+</div>
+            <div class="font-body text-white/40 text-xs uppercase tracking-wider mt-1">Años de Trayectoria</div>
           </div>
           <div>
             <div class="font-heading text-brand-green text-3xl">5K+</div>

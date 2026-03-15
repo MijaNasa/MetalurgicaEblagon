@@ -43,7 +43,7 @@ import Footer from './components/Footer.vue';
 
     <!-- Floating WhatsApp Button -->
     <a
-      href="https://wa.me/543511234567"
+      href="https://wa.me/543516815340"
       target="_blank"
       rel="noopener noreferrer"
       class="whatsapp-float"

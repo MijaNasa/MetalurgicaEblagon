@@ -1,11 +1,11 @@
 <script setup>
 const projects = [
-  { title: "Estanterías Industriales", category: "Estructuras Metálicas", image: "/proyecto-1.png" },
-  { title: "Paneles Cortados a Láser", category: "Corte Láser", image: "/proyecto-2.png" },
-  { title: "Tanques de Acero Inoxidable", category: "Fabricación Industrial", image: "/proyecto-3.png" },
-  { title: "Marcos para Maquinaria Agrícola", category: "Fabricación Industrial", image: "/proyecto-1.png" },
-  { title: "Sistema Transportador", category: "Ensamblaje", image: "/proyecto-2.png" },
-  { title: "Fachada Doblada Arquitectónica", category: "Plegado de Chapa", image: "/proyecto-3.png" }
+  { title: "Cuchillas 330 mm", category: "Producto Principal", image: "/proyecto-1.png" },
+  { title: "Cuchillas 325 mm", category: "Producto Principal", image: "/proyecto-2.png" },
+  { title: "Cuchillas 300 mm", category: "Producto Principal", image: "/proyecto-3.png" },
+  { title: "Mecanizado CNC", category: "Servicios", image: "/proyecto-1.png" },
+  { title: "Piezas Especiales", category: "Trabajos a Pedido", image: "/proyecto-2.png" },
+  { title: "Medidas especiales", category: "A pedido", image: "/proyecto-3.png" }
 ];
 </script>
 
@@ -17,11 +17,11 @@ const projects = [
         <div>
           <p class="font-body text-brand-green text-xs uppercase tracking-[0.3em] mb-4">Nuestro Portfolio</p>
           <h2 class="font-heading text-white text-4xl md:text-6xl uppercase leading-[0.9]">
-            TRABAJOS <br/>RECIENTES
+            PRODUCTOS <br/>Y SERVICIOS
           </h2>
         </div>
         <p class="font-body text-white/40 text-sm max-w-xs text-right">
-          Explorá nuestro portfolio de proyectos de fabricación metálica de precisión.
+          Cuchillas de precisión y soluciones de mecanizado para la industria.
         </p>
       </div>
 
