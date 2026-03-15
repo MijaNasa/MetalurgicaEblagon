@@ -5,70 +5,10 @@
       <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
         <!-- Brand -->
         <div class="md:col-span-1">
-          <a href="#home" class="flex items-center group mb-6">
-            <img
-              src="/logo.png"
-              alt="Metalúrgica Eblagon"
-              class="h-14 w-auto rounded-xl object-contain opacity-90 group-hover:opacity-100 transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(0,0,0,0.3)]"
-            />
-          </a>
-          <p class="font-body text-white/60 text-xs leading-relaxed max-w-xs">
-            Fabricación metálica industrial y soluciones de ingeniería estructural para quienes exigen excelencia.
-          </p>
-
-          <!-- Social icons -->
-          <div class="flex gap-3 mt-6">
-            <a href="#" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white hover:text-brand-green flex items-center justify-center text-white text-xs font-heading transition-all duration-300">
-              <span>in</span>
-            </a>
-            <a href="#" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white hover:text-brand-green flex items-center justify-center text-white text-xs font-heading transition-all duration-300">
-              <span>ig</span>
-            </a>
-            <a href="#" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white hover:text-brand-green flex items-center justify-center text-white text-xs font-heading transition-all duration-300">
-              <span>fb</span>
-            </a>
-          </div>
         </div>
 
-        <!-- Quick Links -->
-        <div class="md:col-span-1">
-          <h4 class="font-heading text-white text-sm uppercase tracking-widest mb-5">Navegación</h4>
-          <ul class="space-y-3 font-body text-sm text-white/60">
-            <li><a href="#home" class="hover:text-white transition-colors">Inicio</a></li>
-            <li><a href="#services" class="hover:text-white transition-colors">Servicios</a></li>
-            <li><a href="#projects" class="hover:text-white transition-colors">Proyectos</a></li>
-            <li><a href="#about" class="hover:text-white transition-colors">Sobre Nosotros</a></li>
-            <li><a href="#contact" class="hover:text-white transition-colors">Contacto</a></li>
-          </ul>
-        </div>
 
-        <!-- Services -->
-        <div class="md:col-span-1">
-          <h4 class="font-heading text-white text-sm uppercase tracking-widest mb-5">Servicios</h4>
-          <ul class="space-y-3 font-body text-sm text-white/60">
-            <li><a href="#services" class="hover:text-white transition-colors">Corte Láser</a></li>
-            <li><a href="#services" class="hover:text-white transition-colors">Plegado de Chapa</a></li>
-            <li><a href="#services" class="hover:text-white transition-colors">Estructuras Metálicas</a></li>
-            <li><a href="#services" class="hover:text-white transition-colors">Prototipos a Medida</a></li>
-            <li><a href="#services" class="hover:text-white transition-colors">Acabado Superficial</a></li>
-          </ul>
-        </div>
 
-        <!-- Newsletter / CTA -->
-        <div class="md:col-span-1">
-          <h4 class="font-heading text-white text-sm uppercase tracking-widest mb-5">Mantenete Informado</h4>
-          <p class="font-body text-white/60 text-xs leading-relaxed mb-4">Suscribite para recibir novedades sobre nuestros servicios y proyectos.</p>
-          <div class="flex gap-2">
-            <input
-              type="email"
-              placeholder="tu@email.com"
-              class="flex-1 bg-white/10 border border-white/20 text-white placeholder-white/40 font-body text-xs px-4 py-3 rounded-full focus:outline-none focus:border-white/50 transition-all"
-            />
-            <button class="bg-white text-brand-green font-heading text-xs uppercase px-4 py-3 rounded-full hover:bg-white/90 transition-all">
-              OK
-            </button>
-          </div>
-        </div>
       </div>
 
       <!-- Bottom bar -->

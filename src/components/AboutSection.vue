@@ -9,12 +9,12 @@
           <h2 class="font-heading text-[#111] text-4xl md:text-5xl uppercase leading-[0.9] mb-8">
             METALURGIA DE<br/>
             <span class="text-brand-green">PRECISIÓN</span> DESDE<br/>
-            MÁS DE 30 AÑOS
+            MÁS DE 20 AÑOS
           </h2>
           
           <div class="space-y-4 font-body text-[#111]/60 text-base leading-relaxed">
             <p>
-              <strong class="text-brand-green font-bold">Metalúrgica Eblagon</strong> es una empresa familiar con más de 30 años de experiencia, dedicada a la fabricación y trabajos a pedido.
+              <strong class="text-brand-green font-bold">Metalúrgica Eblagon</strong> es una empresa familiar con más de 20 años de experiencia, dedicada a la fabricación y trabajos a pedido.
             </p>
             <p>
               Nuestra prioridad es ofrecer calidad, cumplimiento y confianza en cada trabajo. Contamos con tecnología de vanguardia y un equipo altamente calificado para brindar resultados excepcionales.
@@ -41,7 +41,7 @@
               </div>
             </div>
             <div class="text-center mt-2">
-              <div class="font-heading text-[#111] text-2xl">30+ Años</div>
+              <div class="font-heading text-[#111] text-2xl">20+ Años</div>
               <div class="font-heading text-brand-green text-xl">de Trayectoria</div>
               <div class="font-body text-[#111]/40 text-xs mt-1">• Empresa Familiar</div>
             </div>
@@ -50,7 +50,7 @@
           <!-- Stats Grid -->
           <div class="grid grid-cols-2 gap-4 border-t border-[#111]/10 pt-6">
             <div class="bg-white rounded-xl p-5 shadow-sm">
-              <div class="font-heading text-brand-green text-3xl mb-1">30+</div>
+              <div class="font-heading text-brand-green text-3xl mb-1">20+</div>
               <div class="font-body text-[#111]/50 text-xs uppercase tracking-wider">Años de Trayectoria</div>
             </div>
             <div class="bg-white rounded-xl p-5 shadow-sm">

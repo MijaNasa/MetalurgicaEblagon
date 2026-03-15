@@ -25,8 +25,8 @@ import Footer from './components/Footer.vue';
       <!-- Value Proposition / Advantages -->
       <WhyChooseUs />
       
-      <!-- Step-by-Step Workflow -->
-      <ProcessSection />
+      <!-- Step-by-Step Workflow
+      <ProcessSection /> -->
       
       <!-- Portfolio Grid -->
       <ProjectsGallery />
