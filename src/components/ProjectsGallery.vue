@@ -1,11 +1,11 @@
 <script setup>
 const projects = [
-  { title: "Cuchillas 330 mm", category: "Producto Principal", image: "/proyecto-1.png" },
-  { title: "Cuchillas 325 mm", category: "Producto Principal", image: "/proyecto-2.png" },
-  { title: "Cuchillas 300 mm", category: "Producto Principal", image: "/proyecto-3.png" },
-  { title: "Mecanizado CNC", category: "Servicios", image: "/proyecto-1.png" },
-  { title: "Piezas Especiales", category: "Trabajos a Pedido", image: "/proyecto-2.png" },
-  { title: "Medidas especiales", category: "A pedido", image: "/proyecto-3.png" }
+  { title: "Cuchillas de Precisión", category: "Fabricación", image: "/cuchilla-circular-producto.jpg" },
+  { title: "Mecanizado CNC", category: "Servicios", image: "/mecanizado-cnc-accion.jpg" },
+  { title: "Detalle de Filo", category: "Calidad", image: "/cuchilla-detalle-edge.jpg" },
+  { title: "Medición y Control", category: "Precisión", image: "/mecanizado-precision-medicion.jpg" },
+  { title: "Planta de Producción", category: "Infraestructura", image: "/operario-mecanizado-haas.jpg" },
+  { title: "Herramental CNC", category: "Proceso", image: "/herramientas-cnc-detalle.jpg" }
 ];
 </script>
 

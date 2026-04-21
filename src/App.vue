@@ -5,6 +5,7 @@ import ServicesSection from './components/ServicesSection.vue';
 import WhyChooseUs from './components/WhyChooseUs.vue';
 import ProcessSection from './components/ProcessSection.vue';
 import ProjectsGallery from './components/ProjectsGallery.vue';
+import BladeSpecs from './components/BladeSpecs.vue';
 import AboutSection from './components/AboutSection.vue';
 import ContactForm from './components/ContactForm.vue';
 import Footer from './components/Footer.vue';
@@ -30,6 +31,9 @@ import Footer from './components/Footer.vue';
       
       <!-- Portfolio Grid -->
       <ProjectsGallery />
+
+      <!-- Blade Technical Specifications -->
+      <BladeSpecs />
       
       <!-- Company Information -->
       <AboutSection />

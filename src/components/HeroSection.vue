@@ -7,7 +7,7 @@
     <!-- Background Image -->
     <div 
       class="absolute inset-0 bg-cover bg-center bg-no-repeat"
-      style="background-image: url('/hero-bg.png');"
+      style="background-image: url('/planta-industrial-wide.jpg');"
     ></div>
     <!-- Dark overlay + gradient -->
     <div class="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/40"></div>
@@ -52,12 +52,12 @@
         <!-- Stats bar -->
         <div class="mt-14 flex gap-10 border-t border-white/10 pt-8">
           <div>
-            <div class="font-heading text-brand-green text-3xl">20+</div>
+            <div class="font-heading text-brand-green text-3xl">40+</div>
             <div class="font-body text-white/40 text-xs uppercase tracking-wider mt-1">Años de Trayectoria</div>
           </div>
           <div>
-            <div class="font-heading text-brand-green text-3xl">5K+</div>
-            <div class="font-body text-white/40 text-xs uppercase tracking-wider mt-1">Proyectos Entregados</div>
+            <div class="font-heading text-brand-green text-3xl">35K+</div>
+            <div class="font-body text-white/40 text-xs uppercase tracking-wider mt-1">Productos Entregados</div>
           </div>
           <div>
             <div class="font-heading text-brand-green text-3xl">100%</div>

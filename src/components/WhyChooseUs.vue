@@ -1,7 +1,7 @@
 <template>
   <section id="why-us" class="relative bg-[#f5f4f0] overflow-hidden">
     <!-- Background with industrial image overlay -->
-    <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style="background-image: url('/hero-bg.png');"></div>
+    <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style="background-image: url('/torno-cnc-interior.jpg');"></div>
     <div class="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/60"></div>
 
     <div class="relative z-10 max-w-7xl mx-auto px-6 py-24">

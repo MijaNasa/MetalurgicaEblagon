@@ -31,13 +31,13 @@
           <div class="flex flex-col items-center gap-3">
             <div class="flex gap-3 justify-center">
               <div class="w-28 h-28 rounded-full overflow-hidden border-4 border-brand-green/40 shadow-[0_0_20px_rgba(29,94,65,0.3)]">
-                <img src="/proyecto-1.png" alt="Operario 1" class="w-full h-full object-cover" />
+                <img src="/operario-mecanizado-haas.jpg" alt="Operario Mecanizado" class="w-full h-full object-cover" />
               </div>
               <div class="w-28 h-28 rounded-full overflow-hidden border-4 border-brand-green/40 shadow-[0_0_20px_rgba(29,94,65,0.3)] mt-6">
-                <img src="/proyecto-2.png" alt="Operario 2" class="w-full h-full object-cover" />
+                <img src="/operario-vertical-cnc.jpg" alt="Operario Vertical CNC" class="w-full h-full object-cover" />
               </div>
               <div class="w-28 h-28 rounded-full overflow-hidden border-4 border-brand-green/40 shadow-[0_0_20px_rgba(29,94,65,0.3)]">
-                <img src="/proyecto-3.png" alt="Operario 3" class="w-full h-full object-cover" />
+                <img src="/operario-haas-top.jpg" alt="Operario Planta" class="w-full h-full object-cover" />
               </div>
             </div>
             <div class="text-center mt-2">
