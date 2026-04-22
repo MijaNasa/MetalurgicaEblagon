@@ -9,10 +9,39 @@ const form = ref({
   mensaje: ''
 });
 
-const handleSubmit = (e) => {
+const isSubmitting = ref(false);
+
+const handleSubmit = async (e) => {
   e.preventDefault();
-  alert('¡Gracias por su mensaje! Nos pondremos en contacto a la brevedad.');
-  form.value = { nombre: '', empresa: '', email: '', telefono: '', mensaje: '' };
+  isSubmitting.value = true;
+  
+  try {
+    const response = await fetch("https://formspree.io/metalurgicaeblagon2022@gmail.com", { 
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify({
+        Nombre: form.value.nombre,
+        Empresa: form.value.empresa,
+        Email: form.value.email,
+        Telefono: form.value.telefono,
+        Mensaje: form.value.mensaje
+      })
+    });
+
+    if (response.ok) {
+      alert('¡Gracias por su mensaje! Nos pondremos en contacto a la brevedad.');
+      form.value = { nombre: '', empresa: '', email: '', telefono: '', mensaje: '' };
+    } else {
+      throw new Error('Error al enviar');
+    }
+  } catch (error) {
+    alert('Hubo un problema al enviar el formulario. Podés contactarnos directamente por WhatsApp o mail.');
+  } finally {
+    isSubmitting.value = false;
+  }
 };
 </script>
 
@@ -56,7 +85,7 @@ const handleSubmit = (e) => {
                 <div class="w-10 h-10 rounded-full bg-brand-green/10 flex items-center justify-center shrink-0 group-hover:bg-brand-green/20 transition-all">
                   <svg class="w-4 h-4 text-brand-green" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
                 </div>
-                <span class="font-body text-white/50 text-sm">Matieblagon18@gmail.com</span>
+                <span class="font-body text-white/50 text-sm">metalurgicaeblagon2022@gmail.com</span>
               </div>
             </div>
           </div>
@@ -120,9 +149,13 @@ const handleSubmit = (e) => {
               ></textarea>
             </div>
 
-            <button type="submit" class="w-full flex items-center justify-center gap-3 bg-brand-green hover:bg-[#164d33] text-white font-heading text-sm uppercase tracking-widest px-8 py-4 rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(29,94,65,0.4)] hover:shadow-[0_0_40px_rgba(29,94,65,0.6)] hover:scale-[1.02]">
-              Enviar Consulta
-              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            <button 
+              type="submit" 
+              :disabled="isSubmitting"
+              class="w-full flex items-center justify-center gap-3 bg-brand-green hover:bg-[#164d33] disabled:bg-gray-600 disabled:cursor-not-allowed text-white font-heading text-sm uppercase tracking-widest px-8 py-4 rounded-xl transition-all duration-300 shadow-[0_0_20px_rgba(29,94,65,0.4)] hover:shadow-[0_0_40px_rgba(29,94,65,0.6)] hover:scale-[1.02]"
+            >
+              {{ isSubmitting ? 'Enviando...' : 'Enviar Consulta' }}
+              <svg v-if="!isSubmitting" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
             </button>
           </form>
         </div>

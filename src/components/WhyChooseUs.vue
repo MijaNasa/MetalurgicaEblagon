@@ -9,15 +9,15 @@
       <div class="mb-16">
         <p class="font-body text-brand-green text-xs uppercase tracking-[0.3em] mb-4">Por qué Elegirnos</p>
         <div class="flex items-baseline gap-4">
-          <span class="font-heading text-brand-green/20 text-[120px] leading-none select-none">05</span>
+          <span class="font-heading text-brand-green/20 text-[120px] leading-none select-none">04</span>
           <h2 class="font-heading text-white text-4xl md:text-6xl uppercase leading-tight">
             RAZONES
           </h2>
         </div>
       </div>
 
-      <!-- Cards Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Cards Grid (2x2) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
 
         <!-- Card 1 -->
         <div class="group bg-white/5 border border-white/10 hover:border-brand-green/40 rounded-2xl p-8 transition-all duration-300 hover:-translate-y-1">

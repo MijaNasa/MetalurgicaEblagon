@@ -14,7 +14,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll));
 const navLinks = [
   { name: 'Inicio', href: '#home' },
   { name: 'Servicios', href: '#services' },
-  { name: 'Proyectos', href: '#projects' },
+  { name: 'Productos', href: '#projects' },
   { name: 'Nosotros', href: '#about' },
   { name: 'Contacto', href: '#contact' },
 ];

@@ -66,11 +66,8 @@ const bladeModels = [
               {{ model.name }}
             </h3>
             <div class="flex gap-2">
-              <span class="px-3 py-1 bg-brand-green/10 border border-brand-green/20 rounded-full text-brand-green text-[10px] uppercase tracking-widest">
-                Acero Inox
-              </span>
-              <span class="px-3 py-1 bg-white/5 border border-white/10 rounded-full text-white/40 text-[10px] uppercase tracking-widest">
-                Precisión
+              <span class="px-3 py-1 bg-brand-green/10 border border-brand-green/20 rounded-full text-brand-green text-[10px] uppercase tracking-widest font-bold">
+                ACERO TEMPLADO CON CROMO DURO
               </span>
             </div>
           </div>

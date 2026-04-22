@@ -52,7 +52,7 @@
         <!-- Stats bar -->
         <div class="mt-14 flex gap-10 border-t border-white/10 pt-8">
           <div>
-            <div class="font-heading text-brand-green text-3xl">40+</div>
+            <div class="font-heading text-brand-green text-3xl">20+</div>
             <div class="font-body text-white/40 text-xs uppercase tracking-wider mt-1">Años de Trayectoria</div>
           </div>
           <div>

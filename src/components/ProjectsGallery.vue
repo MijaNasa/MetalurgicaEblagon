@@ -1,11 +1,11 @@
 <script setup>
 const projects = [
-  { title: "Cuchillas de Precisión", category: "Fabricación", image: "/cuchilla-circular-producto.jpg" },
+  { title: "Cuchillas cortadoras de fiambre", category: "Fabricación", image: "/cuchilla-circular-producto.jpg" },
   { title: "Mecanizado CNC", category: "Servicios", image: "/mecanizado-cnc-accion.jpg" },
-  { title: "Detalle de Filo", category: "Calidad", image: "/cuchilla-detalle-edge.jpg" },
+  { title: "AFILADOS EN GENERAL", category: "Servicios", image: "/cuchilla-detalle-edge.jpg" },
   { title: "Medición y Control", category: "Precisión", image: "/mecanizado-precision-medicion.jpg" },
   { title: "Planta de Producción", category: "Infraestructura", image: "/operario-mecanizado-haas.jpg" },
-  { title: "Herramental CNC", category: "Proceso", image: "/herramientas-cnc-detalle.jpg" }
+  { title: "TORNOS CNC", category: "Maquinaria", image: "/tornocnc.jpeg" }
 ];
 </script>
 
@@ -21,7 +21,7 @@ const projects = [
           </h2>
         </div>
         <p class="font-body text-white/40 text-sm max-w-xs text-right">
-          Cuchillas de precisión y soluciones de mecanizado para la industria.
+          Cuchillas cortadoras de fiambre y soluciones de mecanizado para las industrias.
         </p>
       </div>
 

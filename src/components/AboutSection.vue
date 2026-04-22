@@ -58,7 +58,7 @@
               <div class="font-body text-[#111]/50 text-xs uppercase tracking-wider">Proyectos Entregados</div>
             </div>
             <div class="bg-white rounded-xl p-5 shadow-sm">
-              <div class="font-heading text-brand-green text-3xl mb-1">50</div>
+              <div class="font-heading text-brand-green text-3xl mb-1">10</div>
               <div class="font-body text-[#111]/50 text-xs uppercase tracking-wider">Profesionales</div>
             </div>
             <div class="bg-white rounded-xl p-5 shadow-sm">
